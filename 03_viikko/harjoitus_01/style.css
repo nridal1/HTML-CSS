@@ -1,0 +1,47 @@
+* {
+  margin-left: 0px;
+}
+.h1 {
+  font-family: "DM Serif Text", serif;
+  color: #6b8e23;
+  margin-left: 20px;
+  text-align: center;
+}
+.p1 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: 16px;
+  font-style: normal;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.p2 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: 16px;
+  font-style: normal;
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+body {
+  background: rgb(157, 205, 154);
+  background: linear-gradient(
+    180deg,
+    rgba(157, 205, 154, 1) 0%,
+    rgba(150, 207, 146, 0) 100%
+  );
+  background-repeat: no-repeat;
+}
+nav ul {
+  margin: 20px, 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin: 20px;
+  text-transform: uppercase;
+  color: #696969;
+}

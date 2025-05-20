@@ -1,0 +1,41 @@
+body {
+  background: rgb(201, 199, 199);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.round {
+  margin: 50px auto;
+  width: 100px;
+  height: 100px;
+  background: rgb(53, 53, 177);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgb(53, 50, 50), 0 0 60px #333 inset;
+  transition: height 3s 1s ease-in, width 3s ease-out;
+}
+
+.round:hover {
+  height: 400px;
+  width: 400px;
+}
+
+.square {
+  margin: 50px auto;
+  width: 100px;
+  height: 100px;
+  background: rgb(53, 53, 177);
+  box-shadow: 0px 4px 10px rgb(53, 50, 50), 0 0 60px #333 inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid, white;
+  transition: transform 3s, background-color 4s;
+}
+.square:hover {
+  transform: rotate(180deg);
+  background-color: rgb(127, 127, 173);
+}
